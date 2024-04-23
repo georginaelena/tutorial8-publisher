@@ -16,3 +16,9 @@ Kedua program subscriber dan publisher menggunakan URL yang sama, yaitu "amqp://
 # Running RabbitMQ as message broker
 
 ![](https://i.imgur.com/Vl1MwQE.png)
+
+# Sending and processing event
+
+Setelah menjalankan cargo run di publisher dan subscriber, maka Publisher akan mengirimkan data berupa 5 event ke broker yang diterima oleh Subscriber.
+
+![](https://i.imgur.com/fjaa80l.png)

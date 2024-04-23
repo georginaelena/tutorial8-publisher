@@ -13,4 +13,6 @@ Publisher program akan mengirim total 5 pesan data ke broker pesan dalam satu ka
 
 Kedua program subscriber dan publisher menggunakan URL yang sama, yaitu "amqp://guest:guest@localhost:5672". Ini menunjukkan bahwa keduanya terhubung ke infrastruktur pesan yang sama yang disediakan oleh broker AMQP dan dapat bertukar pesan secara efektif. Dengan menggunakan URL yang sama, keduanya dapat berkomunikasi dengan broker yang sama di mesin lokal (localhost) dengan menggunakan kredensial default "guest:guest" untuk autentikasi. Hal ini memastikan bahwa baik pengirim (publisher) maupun penerima (subscriber) terhubung ke lingkungan yang serupa dan dapat berinteraksi dengan sistem pesan dengan benar.
 
+# Running RabbitMQ as message broker
 
+![](https://i.imgur.com/Vl1MwQE.png)
